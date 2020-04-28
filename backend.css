@@ -1,0 +1,112 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    /* display:flex; */
+    /* flex-direction: column; */
+}
+
+.back {
+    margin: 20px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgb(38, 40, 168);
+}
+
+.book-form {
+    font-size:20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 320px;
+    align-self: center;
+    margin-bottom:45px;
+    text-align: center;
+}
+
+.fieldset {
+    text-align: start;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 0 20px;
+    position: relative;
+    width: 300px;
+    border-color: black;
+}
+
+.book-form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input {
+    /* width: 300px; */
+    width: 95%;
+    margin: 0 2.5%;
+    font-size: 20px;
+    border:none;
+    /* border-bottom: 1px solid lightgrey; */
+    border-radius: 5px;
+    font-weight:300;
+    background: none;
+}
+
+input:focus, #summary:focus {
+    outline:none;
+}
+
+#summary {
+    height: 225px;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    /* border: 1px solid lightgrey; */
+    /* border-radius:10px; */
+}
+
+.book-form-inputs > * {
+    margin: 5px 0;
+}
+
+.header {
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+.submit, .link {
+    background: rgb(51, 53, 214);
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.submit:hover, .link:hover {
+    background: rgb(38, 40, 168);
+}
+
+.book {
+    display: flex;
+}
+
+.columns {
+    background: orange;
+}

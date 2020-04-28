@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+    <link rel="stylesheet" href="backend.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="images/worm.png" />
+      <link rel="stylesheet" type="text/css" href="booklist.css">
+</head>
+<body>
+    <div class="back">
+        <a class="link" href="booklist.html">Back</a>
+    </div>
+    <div class="book-form">
+        <div class="book-form-inputs">
+            <div>Add Book Here</div>
+            <fieldset class="fieldset">
+                <legend class="header">Title</legend>
+                <input autocomplete="off" class="input" placeholder="Enter Book Title" type="text" name="title" id="title">
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="header">Author</legend>
+                <input autocomplete="off" class="input" placeholder="Name of Author" type="text" name="author" id="author">
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="header">Genre</legend>
+                <input autocomplete="off" class="input" placeholder="Type of Genre" type="text" name="genre" id="genre">
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="header">Image</legend>
+                <input autocomplete="off" class="input" placeholder="URL to Image" type="text" name="image" id="image">
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="header">Summary</legend>
+                <textarea class="input" placeholder="Quick Summary of the Book" id="summary"></textarea>
+            </fieldset>
+            <div class="submit">Submit</div>
+        </div>
+    </div>
+    <!-- <div class="book-list">
+        <table class="book">
+            <tr class="columns">
+                <h3 class="title-info">Title</h3>
+                <h3 class="author-info">Author</h3>
+                <h3 class="genre-info">Genre</h3>
+                <h3 class="image-info">Image</h3>
+                <h3 class="summary-info">Summary</h3>
+                <h3 class="clear">Clear</h3>
+            </tr>
+            <tr class="columns">
+                <h3 class="title-info">test title</h3>
+                <h3 class="author-info">test Author</h3>
+                <h3 class="genre-info">test Genre</h3>
+                <h3 class="image-info">test Image</h3>
+                <h3 class="summary-info">test Summary</h3>
+                <h3 class="clear">X</h3>
+            </tr>
+        </table>
+    </div> -->
+    <script src="backend.js"></script>
+</body>
+</html>
